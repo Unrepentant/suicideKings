@@ -1,0 +1,58 @@
+/*
+ * SuicideKings tier and accessory lists styles
+ */
+body { background: #eee; color: #000; }
+
+/* Table position and size */
+#sKings table {
+ margin: 0 auto;
+}
+
+/* Table borders */
+#sKings table, #sKings table td, #sKings table th {
+ border: #333 0px solid;
+ border-collapse: collapse;
+}
+
+/* Table Titles */
+#sKings tr.title {
+ font-weight: bold;
+ text-align: center;
+ color: #000;
+ border-bottom: #777 1px solid;
+}
+
+/* Each table group */
+#sKings table th {
+ width: 120px;
+}
+
+/* Rank column width */
+#sKings table th.rank {
+ width: 50px;
+}
+
+/* rank column */
+#sKings .rank {
+ color: #666666;
+ text-align: center;
+}
+
+/* all table cells */
+#sKings td {
+ padding: 1px 5px;
+ text-align: center;
+}
+
+/* class colors */
+.deathknight { color: #c41e3b; }
+.druid { color: #ff7d0a; }
+.hunter { color: #77a934; }
+.mage { color: #69ccf0; }
+.paladin { color: #f58cba; }
+.priest { color: #000; }
+.rogue { color: #cebe00; }
+.shaman { color: #2459ff; }
+.warlock { color: #9482ca; }
+.warrior { color: #c79c6e; }
+.unknown { color: #555; }

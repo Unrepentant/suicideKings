@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+ <link rel="stylesheet" href="css/sk-dark.css" type="text/css" />
+ <script type="text/javascript" src="js/suicideKings.min.js"></script>
+ <script type="text/javascript">
+ $(document).ready(function(){
+
+  var fix = [];
+  fix['Æpic'] = 'mage';
+  fix['Skeetles'] = 'druid';
+
+  $('#sKings').suicideKings({
+   skFile      : "SuicideKings.lua",
+   ranksToShow : 60,
+   fixClass    : fix
+  });
+
+ });
+ </script>
+</head><body>
+
+<div id="sKings">
+ <table class="list">
+  <thead>
+   <tr class="title">
+    <th class="rank">Rank</th>
+    <th>Weapon/Trinket</th>
+    <th>Accessories</th>
+    <th>Armor</th>
+    <th>Tier</th>
+   </tr>
+  </thead>
+  <tbody>
+  </tbody>
+ </table>
+</div>
+
+</body></html>
