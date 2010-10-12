@@ -1,4 +1,4 @@
-**Features**
+**Features** ([demo][1])
 
 * Parse SuicideKings.lua file created by the World of Warcraft Suicide Kings addon version 3.1
  (http://wow.curse.com/downloads/wow-addons/details/suicide-kings.aspx) using javascript/jQuery only.
@@ -40,3 +40,5 @@ HTML:
 Version 1.0 (8/25/2010)
 
 * Suicide Kings script posted on github.
+
+ [1]: http://mottie.github.com/suicideKings/
