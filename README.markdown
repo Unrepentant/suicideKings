@@ -14,7 +14,7 @@ Script:
      ranksToShow : 60,                 // Number of ranks to show in the table
      fixClass    : []                  // Replace "Unknown" with class: fix['Toon Name'] = 'Class';
                                        // 'Toon Name' should include all capitals and spaces, exactly like you see it in the table
-                                       // 'Class' should be a predefined wow class (captial letters don't matter)
+                                       // 'Class' should be a predefined wow class (capital letters don't matter)
     });
 
 HTML:
